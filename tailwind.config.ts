@@ -8,11 +8,16 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+			colors: {
+				primary: "#9292f6",
+				"light-text": "#192033",
+				danger: "#ff5454",
+				warning: "#f4b952",
+			},
+			screens: {
+				xs: "400px",
+			},
+		},
   },
   plugins: [],
 } satisfies Config;
